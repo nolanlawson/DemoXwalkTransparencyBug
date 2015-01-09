@@ -39,6 +39,7 @@ android {
             versionCode ((100 * computeVersionCode()) + 4)
         }
         withoutCrosswalk {
+            minSdkVersion 20 // the non-crosswalk version is only for post-lollipop
             versionCode ((100 * computeVersionCode()) + 6)
         }
     }
